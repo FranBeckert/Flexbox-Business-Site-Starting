@@ -1,0 +1,107 @@
+
+header h1 {
+    text-align: center;
+    font-family: Courgette;   
+    color: rgb(106, 32, 32);
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav a {
+    color: black;
+    font-size: 1.2rem;
+}
+
+#section-1, #section-2 {
+    text-align: center;    
+}
+
+#section-1 {
+    background-image: url(__MACOSX/images/background.jpg);
+    height: 20rem;
+    /* background-size: cover;
+    background-position: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-1 {
+    background-color: burlywood;
+    width: 100%;
+    opacity: 0.8;
+}
+
+#section-2 {
+    background: rgba(222, 184, 135, .3);
+}
+#section-2 p {
+    font-size: 1.2rem;    
+}
+
+.instruments {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.instruments figure {
+    display: flex;
+    align-items: center;
+}
+
+.instruments figure img {
+    max-width: 17vw;
+    max-height: 30vw;
+    padding: 10px; 
+}
+
+figcaption {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#section-3 {
+    background-image: url(__MACOSX/images/background-2.jpg);
+    height: 40rem;
+}
+
+#section-3 h2 {
+    text-align: center;
+    background-color: lavender;   
+    padding: 2%;
+}
+.people {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 38rem;
+}
+
+.person {
+    display: flex;
+    width: 180px;   
+    flex-direction: column;
+    align-items: center;
+    background-color:burlywood;
+    margin-bottom: 4%;
+}
+
+.person img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background: antiquewhite;
+}
+}
